@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RegdarGameEngine"/>
+	<classpathentry kind="lib" path="C:/Users/Samuel Harper/stendal_server/RegdarGameEngine/lib/kryonet-1.04-all.jar" sourcepath="/kryonet"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

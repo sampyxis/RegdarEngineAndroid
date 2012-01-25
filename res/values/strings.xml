@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RegdarAndroidClientActivity!</string>
+    <string name="app_name">RegdarAndroidClient</string>
+    <string name="Login">Login</string>
+ 	<string name="actionbar_activity_not_found">Failed to open intent...</string>
+</resources>

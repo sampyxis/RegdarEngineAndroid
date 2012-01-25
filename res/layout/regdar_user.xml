@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/regdar_screen"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/actionbar_height"
+    android:orientation="horizontal"
+    >
+    <RelativeLayout
+        android:id="@+id/regdar_user_home"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/actionbar_height"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:visibility="visible"
+        >
+        <ImageView
+            android:id="@+id/regdar_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/actionbar_height"
+            android:background="@drawable/actionbar_btn"
+            android:padding="0dip"
+            android:src="@drawable/logosmall" 
+            style="@style/ActionBarHomeLogo"
+            android:visibility="visible"
+            />
+
+<!-- this is a small triangle to let the user know that they can go back -->
+        <ImageView
+            android:id="@+id/regdar_home_is_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/actionbar_back_indicator"
+            android:layout_toLeftOf="@+id/actionbar_home_btn"
+            android:layout_alignParentTop="true"
+            android:padding="0dip"
+            android:visibility="visible"
+            />
+        
+        <LinearLayout
+            android:id="@+id/regdar_actions"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/actionbar_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:background="@color/actionbar_separator"
+            />
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/actionbar_home_bg"
+            android:layout_toLeftOf="@id/actionbar_actions"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerVertical="true"
+            >
+        </RelativeLayout> 
+       <TextView
+        android:id="@+id/regdar_user_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    </RelativeLayout>
+</RelativeLayout>
